@@ -1,50 +1,84 @@
-body {
-    background-color: aliceblue;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="hip">
+        <h2 class="pqr">Registration Form</h2>
+    <div class="box">
+        <form action="" class="form" id="user">
+            <div>
+                <div class="dv">
+                <label for="name" class="lb">Name</label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name" required placeholder="Enter Name">
+                </div>
+            </div>
 
-h1 {
-    margin: 4px;
-}
+            <div>
+                <div class="dv">
+                <label for="email" class="lb">Email</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" required placeholder="Enter email">
+                </div>
+            </div>
 
-.container {
-    max-width: 70%;
-    margin: auto;
-    text-align: center;
-}
+            <div>
+                <div class="dv">
+                <label for="pass" class="lb">Password</label>
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" required placeholder="Enter Password">
+                </div>
+            </div>
 
-.parts {
-    margin: auto;
-    margin-top: 10px;
-    border: 1px solid;
-    padding: 5px;
-    background-color: rgb(145, 180, 210);
-}
+            <div>
+                <div class="dv">
+                <label for="dob" class="lb">Date of Birth</label>
+                </div>
+                <div>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+            </div>
 
-.block {
-    display: block;
-    margin: auto;
-    margin-top: 3px;
-}
+            <div>
+                <div class="">
+                    <input type="checkbox" name="checkbox" id="terms">
+                    <label for="terms">Accept Terms & Conditions</label>
+                </div>
+            </div>
 
-.table {
-    border: 2px solid;
-    margin: auto;
-}
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div class="box2">
+        <div class="hi">
+        <h2 class="psa">Entries</h2>
+        <table class="bv" id="user-table">
+            <thead>
+                <tr>
+                    <th class="th">Name</th>
+                    <th class="th">Email</th>
+                    <th class="th">Password</th>
+                    <th class="th">Dob</th>
+                    <th class="th">Accepted terms?</th>
+                </tr>
+            </thead>
+                <tbody>
 
-.bor {
-    border: 1px solid;
-    padding: 1px;
-}
-
-.float {
-    margin: auto;
-    margin-top: 3px;
-}
-
-.form {
-    margin: auto;
-}
-
-.submit {
-    background-color: rgb(4, 213, 144);
-}
+                </tbody>
+        </table>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
