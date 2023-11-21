@@ -6,7 +6,7 @@ body,h1,h2,p,ul,li,form,button {
 
 .box {
     margin-top: 20px;
-    background-color: #f9f9f9;
+    background-color: #FF00FF;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -25,7 +25,7 @@ body,h1,h2,p,ul,li,form,button {
   
   
 #submit {
-    background-color: #4caf50;
+    background-color: #f0ffff;
     color: #fff;
     padding: 12px;
     border: none;
@@ -35,7 +35,7 @@ body,h1,h2,p,ul,li,form,button {
   }
   
 #submit:hover {
-    background-color: #45a049;
+    background-color: #f0ffff;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 .hip {
   max-width: 315px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #f0ffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -91,7 +91,7 @@ input {
 .hi {
   max-width: 700px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #f;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
