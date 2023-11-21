@@ -6,7 +6,7 @@ body,h1,h2,p,ul,li,form,button {
 
 .box {
     margin-top: 20px;
-    background-color: #FF00FF;
+    background-color:#c71585;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -35,7 +35,7 @@ body,h1,h2,p,ul,li,form,button {
   }
   
 #submit:hover {
-    background-color: #00FFFF;
+    background-color: #c71585;
 }
 
 body {
